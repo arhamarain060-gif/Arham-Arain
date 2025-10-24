@@ -344,4 +344,27 @@ const validPasscodes = [
   "YourGoatViper-TourneyTitan-2c8B4n6m",
   "YourGoatViper-FPSFan-5t7y6h3",
   "YourGoatViper-GamingGrind-9m2p4l8k",
-  "Your
+  "YourGoatViper-NoMercy-1q2w3e4r",
+  "YourGoatViper-TourneyTerror-6h8j3k2",
+  "YourGoatViper-GamingGamer-4g5j9p2m",
+  "YourGoatViper-EliteElite-8n9m4l3k",
+  "YourGoatViper-SniperSniper-2p4l6j8h",
+  "YourGoatViper-GamingGaming-5g7h9j2k",
+  "YourGoatViper-Tournament-2n7RHJL3X0mHrbpF",
+  "YourGoatViper-Tour-pass-2n7RHJL3X0mHrbpF"
+];
+
+const openLogin = document.getElementById('openLogin');
+const modal = document.getElementById('authModal');
+const signupForm = document.getElementById('signupForm');
+const loginForm = document.getElementById('loginForm');
+const dashboard = document.getElementById('dashboard');
+const home = document.getElementById('home');
+const about = document.getElementById('about');
+const contact = document.getElementById('contact');
+
+openLogin.onclick = () => modal.classList.add('active');
+document.getElementById('nav-login').onclick = () => modal.classList.add('active');
+window.onclick = e => { if (e.target === modal) modal.classList.remove('active'); }
+
+document.getElementById('alreadyAccount').onclick =
