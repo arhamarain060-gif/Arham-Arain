@@ -350,5 +350,4 @@ const validPasscodes = [
   "YourGoatViper-EliteElite-8n9m4l3k",
   "YourGoatViper-SniperSniper-2p4l6j8h",
   "YourGoatViper-GamingGaming-5g7h9j2k",
-  "YourGoatViper-Tournament-2n7RHJL3X0mHrbpF",
-  "YourGoatV
+  "YourGoatViper
