@@ -351,20 +351,4 @@ const validPasscodes = [
   "YourGoatViper-SniperSniper-2p4l6j8h",
   "YourGoatViper-GamingGaming-5g7h9j2k",
   "YourGoatViper-Tournament-2n7RHJL3X0mHrbpF",
-  "YourGoatViper-Tour-pass-2n7RHJL3X0mHrbpF"
-];
-
-const openLogin = document.getElementById('openLogin');
-const modal = document.getElementById('authModal');
-const signupForm = document.getElementById('signupForm');
-const loginForm = document.getElementById('loginForm');
-const dashboard = document.getElementById('dashboard');
-const home = document.getElementById('home');
-const about = document.getElementById('about');
-const contact = document.getElementById('contact');
-
-openLogin.onclick = () => modal.classList.add('active');
-document.getElementById('nav-login').onclick = () => modal.classList.add('active');
-window.onclick = e => { if (e.target === modal) modal.classList.remove('active'); }
-
-document.getElementById('alreadyAccount').onclick =
+  "YourGoatV
